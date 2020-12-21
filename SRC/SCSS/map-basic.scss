@@ -6,4 +6,5 @@ success: green,
 warning: orange,
 danger:  red
 );
-@debug map-get($colors, success);
+@debug map.get($colors, success);
+@debug map.has-key($colors, success);
