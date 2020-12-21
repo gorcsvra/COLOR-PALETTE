@@ -18,3 +18,4 @@ $base-colors: (
 $all-colors: map.merge($colors, $base-colors);
 @debug $all-colors;
 @debug map.remove($colors, success);
+@debug $colors;
