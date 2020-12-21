@@ -1,4 +1,5 @@
 /*MAP:get, has.key, keys, merge,remove,values*/
+@use 'sass:map';
 
 $colors: (
 success: green,
