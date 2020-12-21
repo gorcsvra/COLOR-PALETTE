@@ -8,3 +8,4 @@ danger:  red
 );
 @debug map.get($colors, success);
 @debug map.has-key($colors, success);
+@debug map.keys($colors);
