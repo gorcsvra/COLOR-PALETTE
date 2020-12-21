@@ -15,4 +15,5 @@ $base-colors: (
 @debug map.get($colors, success);
 @debug map.has-key($colors, success);
 @debug map.keys($colors);
-@debug map.merge($colors,$base-colors);
+$all-colors: map.merge($colors, $base-colors);
+@debug $all-colors;
